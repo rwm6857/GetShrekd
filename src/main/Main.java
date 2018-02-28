@@ -16,9 +16,8 @@ public class Main {
      * main function
      *
      * @param args not used
-     * @throws ClassNotFoundException class does not exist
      */
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> types = new ArrayList<>();
         types.add("Bitcoin");
