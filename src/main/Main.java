@@ -26,6 +26,7 @@ public class Main {
         types.add("Obama");
         types.add("Sanic");
         types.add("Shrek");
+        types.add("Soviet");
         types.add("Yee");
 
         System.out.println("   ___   _________________                 \n" +
@@ -66,6 +67,9 @@ public class Main {
                     break;
                 case "yee":
                     System.out.println(new Yee().getArt());
+                    break;
+                case "soviet":
+                    System.out.println(new Soviet().getArt());
                     break;
                 case "o":
                     count = 1;
