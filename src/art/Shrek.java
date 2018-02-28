@@ -2,8 +2,7 @@ package art;
 
 public class Shrek extends main.Art {
 
-    public Shrek(String art) {
-        super(art);
+    public Shrek() {
     }
 
     @Override
@@ -27,7 +26,7 @@ public class Shrek extends main.Art {
                 "        |  ' .     :   :__.,'|/       |  \\ \n" +
                 "        `     \\--.__.-'|_|_|-/        /   ) \n" +
                 "         \\     \\_   `--^\"__,'        ,    | \n" +
-                "   -hrr- ;  `    `--^---'          ,'     | \n" +
+                "         ;  `    `--^---'          ,'     | \n" +
                 "          \\  `                    /      / \n" +
                 "           \\   `    _ _          / \n" +
                 "            \\           `       / \n" +

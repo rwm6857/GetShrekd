@@ -2,8 +2,7 @@ package art;
 
 public class Booty extends main.Art {
 
-    public Booty(String art) {
-        super(art);
+    public Booty() {
     }
 
     @Override

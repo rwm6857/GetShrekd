@@ -2,8 +2,7 @@ package art;
 
 public class Bitcoin extends main.Art {
 
-    public Bitcoin(String art) {
-        super(art);
+    public Bitcoin() {
     }
 
     @Override

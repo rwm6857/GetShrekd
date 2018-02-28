@@ -2,8 +2,7 @@ package art;
 
 public class Sanic extends main.Art {
 
-    public Sanic(String art) {
-        super(art);
+    public Sanic() {
     }
 
     @Override

@@ -2,8 +2,7 @@ package art;
 
 public class Obama extends main.Art {
 
-    public Obama(String art) {
-        super(art);
+    public Obama() {
     }
 
     @Override

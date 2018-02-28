@@ -2,8 +2,7 @@ package art;
 
 public class Doge extends main.Art {
 
-    public Doge(String art) {
-        super(art);
+    public Doge() {
     }
 
     @Override

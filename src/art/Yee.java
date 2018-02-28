@@ -2,8 +2,7 @@ package art;
 
 public class Yee extends main.Art {
 
-    public Yee(String art) {
-        super(art);
+    public Yee() {
     }
 
     @Override
