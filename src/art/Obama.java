@@ -1,8 +1,8 @@
 package art;
 
-public class NotBad extends main.Art {
+public class Obama extends main.Art {
 
-    public NotBad(String art) {
+    public Obama(String art) {
         super(art);
     }
 
