@@ -1,10 +1,22 @@
 package art;
 
+/**
+ * Represents Sanic artwork
+ *
+ * @author rwm6857
+ */
 public class Sanic extends main.Art {
-
+    /**
+     * used to construct Sanic art
+     */
     public Sanic() {
     }
 
+    /**
+     * used to get the ASCII drawing as a String
+     *
+     * @return ASCII art
+     */
     @Override
     public String getArt() {
         return ("░░░░░░░░▀▀▀██████▄▄▄\n" +

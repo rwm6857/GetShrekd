@@ -1,10 +1,22 @@
 package art;
 
+/**
+ * Represents Bitcoin artwork
+ *
+ * @author rwm6857
+ */
 public class Bitcoin extends main.Art {
-
+    /**
+     * used to construct Bitcoin art
+     */
     public Bitcoin() {
     }
 
+    /**
+     * used to get the ASCII drawing as a String
+     *
+     * @return ASCII art
+     */
     @Override
     public String getArt() {
         return ("                 ,.=ctE55ttt553tzs.,                               \n" +

@@ -1,10 +1,22 @@
 package art;
 
+/**
+ * Represents Shrek artwork
+ *
+ * @author rwm6857
+ */
 public class Shrek extends main.Art {
-
+    /**
+     * used to construct Shrek art
+     */
     public Shrek() {
     }
 
+    /**
+     * used to get the ASCII drawing as a String
+     *
+     * @return ASCII art
+     */
     @Override
     public String getArt() {
         return ("                   ,-'     `._ \n" +

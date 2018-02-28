@@ -1,10 +1,22 @@
 package art;
 
+/**
+ * Represents Yee artwork
+ *
+ * @author rwm6857
+ */
 public class Yee extends main.Art {
-
+    /**
+     * Used to construct Yee art
+     */
     public Yee() {
     }
 
+    /**
+     * used to get the ASCII drawing as a String
+     *
+     * @return ASCII art
+     */
     @Override
     public String getArt() {
         return ("░░░░░░░░░░░░░░░░░░░░░░░░░░░\n" +

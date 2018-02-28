@@ -6,7 +6,18 @@ import art.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Main class and function to run the ASCII Art Show
+ *
+ * @author Ryan W. Moore (rwm6857)
+ */
 public class Main {
+    /**
+     * main function
+     *
+     * @param args not used
+     * @throws ClassNotFoundException class does not exist
+     */
     public static void main(String[] args) throws ClassNotFoundException {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> types = new ArrayList<>();

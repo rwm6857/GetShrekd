@@ -1,10 +1,22 @@
 package art;
 
+/**
+ * Represents Booty artwork
+ *
+ * @author rwm6857
+ */
 public class Booty extends main.Art {
-
+    /**
+     * used to construct Booty art
+     */
     public Booty() {
     }
 
+    /**
+     * used to get the ASCII drawing as a String
+     *
+     * @return ASCII art
+     */
     @Override
     public String getArt() {
         return ("░░░░░░░░░░░░▄▄▄▄░░░░░░░░░░░░░░░░░░░░░░░▄▄▄▄▄\n" +
