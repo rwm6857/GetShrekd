@@ -22,6 +22,7 @@ public class Main {
         ArrayList<String> types = new ArrayList<>();
         types.add("Bitcoin");
         types.add("Booty");
+        types.add("DeWay");
         types.add("Doge");
         types.add("Obama");
         types.add("Pepe");
@@ -75,6 +76,8 @@ public class Main {
                 case "pepe":
                     System.out.println(new Pepe().getArt());
                     break;
+                case "deway":
+                    System.out.println(new DeWay().getArt());
                 case "o":
                     count = 1;
                     for (String type : types) {
