@@ -24,6 +24,7 @@ public class Main {
         types.add("Booty");
         types.add("Doge");
         types.add("Obama");
+        types.add("Pepe");
         types.add("Sanic");
         types.add("Shrek");
         types.add("Soviet");
@@ -70,6 +71,9 @@ public class Main {
                     break;
                 case "soviet":
                     System.out.println(new Soviet().getArt());
+                    break;
+                case "pepe":
+                    System.out.println(new Pepe().getArt());
                     break;
                 case "o":
                     count = 1;
