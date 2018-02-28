@@ -28,8 +28,17 @@ public class Main {
         types.add("Shrek");
         types.add("Yee");
 
-        System.out.println("~WELCOME TO ASCII ART SHOW~");
-        System.out.println(" ========================= ");
+        System.out.println("     _    ____   ____ ___ ___                    \n" +
+                "    / \\  / ___| / ___|_ _|_ _|                   \n" +
+                "   / _ \\ \\___ \\| |    | | | |                    \n" +
+                "  / ___ \\ ___) | |___ | | | |                    \n" +
+                " /_/   \\_\\____/ \\____|___|___|                   \n" +
+                "     _    ____ _____ ____  _   _  _____        __\n" +
+                "    / \\  |  _ \\_   _/ ___|| | | |/ _ \\ \\      / /\n" +
+                "   / _ \\ | |_) || | \\___ \\| |_| | | | \\ \\ /\\ / / \n" +
+                "  / ___ \\|  _ < | |  ___) |  _  | |_| |\\ V  V /  \n" +
+                " /_/   \\_\\_| \\_\\|_| |____/|_| |_|\\___/  \\_/\\_/   \n" +
+                "                                                 ");
         System.out.println("Type 'q' to quit anytime");
         System.out.println("Select an option (name): ");
         int count = 1;
