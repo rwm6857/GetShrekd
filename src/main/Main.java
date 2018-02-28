@@ -88,6 +88,6 @@ public class Main {
             System.out.println("Next option ('o' for options):");
             option = scanner.next().toLowerCase();
         }
-        System.exit(420);
+        System.exit(69);
     }
 }
