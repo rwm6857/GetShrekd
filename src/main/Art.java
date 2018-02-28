@@ -1,21 +1,17 @@
 package main;
 
-import java.util.ArrayList;
 
 public abstract class Art {
-    private ArrayList<String> art;
+    private String art;
 
-    public Art(ArrayList<String> art){
+    public Art(String art){
         this.art = art;
     }
 
     public void printer() {
-        for (String piece : this.art) {
-            System.out.println(piece);
-        }
+        System.out.println(art);
     }
 
-
-
+    public abstract String getArt();
 }
 
